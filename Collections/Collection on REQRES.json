@@ -1,7 +1,7 @@
 {
 	"info": {
-		"_postman_id": "ff7c8562-418c-4b92-8d6a-29cbf8608991",
-		"name": "Collection on RES",
+		"_postman_id": "4af9c8f7-82b5-41d0-9530-424142d76bd7",
+		"name": "Collection on REQRES",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
 	"item": [
@@ -97,7 +97,10 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": ""
+							"raw": "{{url}}",
+							"host": [
+								"{{url}}"
+							]
 						}
 					},
 					"response": []
